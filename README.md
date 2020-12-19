@@ -15,26 +15,36 @@ For running this project you need 1. GitHUb account 2. Azure public cloud 3. Azu
 Continous integrtion will be enabled using ssh key which will be created in Azure cloud shell and add it to your Github settings
 This will be enable you to make changes either in cloud shell or your Git Repo.
 
+Continous Deployment:
+
 To deploy app services Upload your project code to your Repo in Github
 
 provide access to your subscription from Azure Devops organization settings
 
-Create  web app Where your want to deploy your Application in you azure public cloud
+Before Deployment Create  web app Where your want to deploy your Application in azure portal
 
-Create a pipline by selecting your project code Git Repo , Providing authorization to Python to Linux Web App on Azure 
+Create a pipline in Azure Devops by selecting your project code Git Repo , Providing authorization to Python to Linux Web App on Azure 
 
 verify yml file . Save and Run . 
 
-Application will be deployed in web App after providing access to pipline.
+Application will be deployed in web App after providing access to Devops pipline.
 
 Deployment status can be verified under Deployment settings
 
-Python pro
+Python project
 
+Create Makefile, requirements.txt, hello.py, Testhello.py
+
+Makefile : To automate your code
+Hello.py : Python code to implement
+Testhello.py : Testing your code 
+
+Create yml file and provide your workflow to complete your deployment and testing
+ 
+![CI](https://github.com/makrisramasamy/azure-devops/workflows/CI/badge.svg)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
-![CI](https://github.com/makrisramasamy/azure-devops/workflows/CI/badge.svg)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
