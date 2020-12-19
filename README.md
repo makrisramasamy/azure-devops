@@ -29,6 +29,8 @@ Application will be deployed in web App after providing access to pipline.
 
 Deployment status can be verified under Deployment settings
 
+Python pro
+
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
