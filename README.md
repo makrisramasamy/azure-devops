@@ -12,37 +12,44 @@ Scope of Work, Requirement Gathering , Development , Deployment and Testing plan
 
 For running this project you need 1. GitHUb account 2. Azure public cloud 3. Azure Devops 
 
-Continous integration will be enabled using ssh key which will be created in Azure cloud shell.This key will be configured in Github settings
-This will help to sync the changes from my local working directory to my Git public Repository.
+Create Repo in your Github
+Login to Azure portal - Cloushell - create ssh keys
+Upload ssh key to your Github
+create scafolding for your project
+
 
 Python project
 
-Create Makefile, requirements.txt, hello.py, Testhello.py
+Create Makefile, requirements.txt, hello.py, Testhello.py under your github repo
 
 Makefile : To automate your code
 Hello.py : Python code to implement
 Testhello.py : Testing your code 
 requirements.txt : Required pakages to be installed by pip to run this project will be listed here.
 
-Set up a workflow for continous integration using yml file. Any  changes in the repo will be detected and triggers the workflow.
+to run this project locally :  make individual command ( eg install ) or all to run 
+
+Set up a workflow for continous integration using Github Actions
+
+Access your Github Repo -Actions
+New workflow- python package
+Edit .yml file based on your requirements
+commit your code . this will trigger automatically the build when any changes made at your repos.
  
  A status badge will be created as below after every run indicating pass or failure.
 ![CI](https://github.com/makrisramasamy/azure-devops/workflows/CI/badge.svg)
 
-Continous Deployment:
+Continous Deleivery:
 
-To deploy web app services Upload your project code to your Github Repo
+Azure Devops , Azure Portal, Github
 
+Upload your project code to your Github Repo
 provide access to your subscription from Azure Devops organization settings
-
-Before Deployment Create  web app Where your want to deploy your Application in azure portal
-
-Create a pipline in Azure Devops by selecting your project code Git Repo , Providing authorization to Python to Linux Web App on Azure 
-
+Create a web app under Resource in azure portal
+Create a pipline in Azure Devops by selecting your project code Git Repo and using Python to Linux Web App on Azure templ
 verify yml file . Save and Run . 
-
+During first run you will be prompted to authorize Webapp deployment from pipeline.
 Application will be deployed in web App after providing access to Devops pipline.
-
 Deployment status can be verified under Deployment settings
 
 
@@ -64,5 +71,7 @@ By using Tagging information create a pipeline for each environment.
 ## Demo 
 
 <TODO: https://studio.youtube.com/video/aImGOs-AMQk >
+
+https://trello.com/b/Vsn8JGVH/ci-cd
 
 
