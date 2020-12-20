@@ -1,6 +1,6 @@
 # Overview
 
-This project is to implement Agile Methodologies including Source Control( GITHUB), Continuous Integration( GitHub Actions) , Continous Deployment(Azure Pipline) and PAAS Services(Azure App services) Application deployment using CI/CD 
+This project is to implement CI/CD 
 
 ## Project Plan
 
@@ -73,5 +73,7 @@ By using Tagging information create a pipeline for each environment.
 <TODO: https://studio.youtube.com/video/aImGOs-AMQk >
 
 https://trello.com/b/Vsn8JGVH/ci-cd
+
+
 
 
