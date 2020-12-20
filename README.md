@@ -79,4 +79,6 @@ https://trello.com/b/Vsn8JGVH/ci-cd
 
 ![Screenshot](https://github.com/makrisramasamy/azure-devops/blob/main/AzureAppservices.png)
 !![Screenshot](https://github.com/makrisramasamy/azure-devops/blob/main/Azure_prediction.png)
+![Screenshot](https://github.com/makrisramasamy/azure-devops/blob/main/AzurePipeline.png)
+![Screenshot](https://github.com/makrisramasamy/azure-devops/blob/main/Architecture.pptx)
 
