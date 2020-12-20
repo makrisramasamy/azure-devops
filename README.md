@@ -12,22 +12,22 @@ Scope of Work, Requirement Gathering , Development , Deployment and Testing plan
 
 For running this project you need 1. GitHUb account 2. Azure public cloud 3. Azure Devops 
 
-Create Repo in your Github
-Login to Azure portal - Cloushell - create ssh keys
-Upload ssh key to your Github
-create scafolding for your project
+Create Repo in your Github.
+Login to Azure portal - Cloushell - create ssh keys.
+Upload ssh key to your Github.
+create scafolding for your project.
 
 
 Python project
 
-Create Makefile, requirements.txt, hello.py, Testhello.py under your github repo
+Create Makefile, requirements.txt, hello.py, Testhello.py under your github repo.
 
-Makefile : To automate your code
-Hello.py : Python code to implement
-Testhello.py : Testing your code 
+Makefile : To automate your code.
+Hello.py : Python code to implement.
+Testhello.py : Testing your code.
 requirements.txt : Required pakages to be installed by pip to run this project will be listed here.
 
-to run this project locally :  make individual command ( eg install ) or all to run 
+To run this project locally :  make individual command ( eg install ) or all to run 
 
 Set up a workflow for continous integration using Github Actions
 
@@ -43,14 +43,14 @@ Continous Deleivery:
 
 Azure Devops , Azure Portal, Github
 
-Upload your project code to your Github Repo
-provide access to your subscription from Azure Devops organization settings
-Create a web app under Resource in azure portal
-Create a pipline in Azure Devops by selecting your project code Git Repo and using Python to Linux Web App on Azure templ
+Upload your project code to your Github Repo.
+provide access to your subscription from Azure Devops organization settings.
+Create a web app under Resource in azure portal.
+Create a pipline in Azure Devops by selecting your project code Git Repo and using Python to Linux Web App on Azure template.
 verify yml file . Save and Run . 
 During first run you will be prompted to authorize Webapp deployment from pipeline.
 Application will be deployed in web App after providing access to Devops pipline.
-Deployment status can be verified under Deployment settings
+Deployment status can be verified under Deployment settings.
 
 
 
