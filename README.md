@@ -12,12 +12,26 @@ Scope of Work, Requirement Gathering , Development , Deployment and Testing plan
 
 For running this project you need 1. GitHUb account 2. Azure public cloud 3. Azure Devops 
 
-Continous integrtion will be enabled using ssh key which will be created in Azure cloud shell and add it to your Github settings
-This will be enable you to make changes either in cloud shell or your Git Repo.
+Continous integration will be enabled using ssh key which will be created in Azure cloud shell.This key will be configured in Github settings
+This will help to sync the changes from my local working directory to my Git public Repository.
+
+Python project
+
+Create Makefile, requirements.txt, hello.py, Testhello.py
+
+Makefile : To automate your code
+Hello.py : Python code to implement
+Testhello.py : Testing your code 
+requirements.txt : Required pakages to be installed by pip to run this project will be listed here.
+
+Set up a workflow for continous integration using yml file. Any  changes in the repo will be detected and triggers the workflow.
+ 
+ A status badge will be created as below after every run indicating pass or failure.
+![CI](https://github.com/makrisramasamy/azure-devops/workflows/CI/badge.svg)
 
 Continous Deployment:
 
-To deploy app services Upload your project code to your Repo in Github
+To deploy web app services Upload your project code to your Github Repo
 
 provide access to your subscription from Azure Devops organization settings
 
@@ -31,17 +45,7 @@ Application will be deployed in web App after providing access to Devops pipline
 
 Deployment status can be verified under Deployment settings
 
-Python project
 
-Create Makefile, requirements.txt, hello.py, Testhello.py
-
-Makefile : To automate your code
-Hello.py : Python code to implement
-Testhello.py : Testing your code 
-
-Create yml file and provide your workflow to complete your deployment and testing
- 
-![CI](https://github.com/makrisramasamy/azure-devops/workflows/CI/badge.svg)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
@@ -51,16 +55,11 @@ Create yml file and provide your workflow to complete your deployment and testin
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
 
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
-
 
 ## Enhancements
 
-Maintaining individual branches for each enbvironment will help us manage better.
+Maintaining individual branches for each environment will help us manage better.
+By using Tagging information create a pipeline for each environment.
 
 ## Demo 
 
