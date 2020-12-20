@@ -1,6 +1,7 @@
 # Overview
 
-This project is to implement CI/CD 
+My Project Goal is to build  CI/CD pipeline and setup continous integrtaions, Delivery via Github Actions and Azure Pipelines while following Agile Methodologies and Devops Principles.Changes from my local working directory will be continuously integrated with the central repository in GitHub. I have used Github actions for continous Integration whcih make trigger the build whenever we commit code into Github Repo.I have automated continous integration using Github Actions.
+I have setup azure pieplne for automated continous Delivery.
 
 ## Project Plan
 
@@ -22,12 +23,12 @@ Python project
 
 Create Makefile, requirements.txt, hello.py, Testhello.py under your github repo.
 
-Makefile : To automate your code.
+Makefile : To automate your build.
 Hello.py : Python code to implement.
 Testhello.py : Testing your code.
 requirements.txt : Required pakages to be installed by pip to run this project will be listed here.
 
-To run this project locally :  make individual command ( eg install ) or all to run 
+To run this project locally :  Invoke make individual command ( eg install ) or all 
 
 Set up a workflow for continous integration using Github Actions
 
@@ -43,7 +44,8 @@ Continous Deleivery:
 
 Azure Devops , Azure Portal, Github
 
-Upload your project code to your Github Repo.
+Upload your project code( FlaskML  to your Github Repo.
+https://github.com/makrisramasamy/Azure-Devops-projec
 provide access to your subscription from Azure Devops organization settings.
 Create a web app under Resource in azure portal.
 Create a pipline in Azure Devops by selecting your project code Git Repo and using Python to Linux Web App on Azure template.
