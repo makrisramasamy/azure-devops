@@ -75,6 +75,6 @@ By using Tagging information create a pipeline for each environment.
 https://trello.com/b/Vsn8JGVH/ci-cd
 
 
-![Alt text] (https://github.com/makrisramasamy/azure-devops/blob/main/AzureAppservices.png)
-![Alt text] (https://github.com/makrisramasamy/azure-devops/blob/main/Azure_prediction.png)
+![Screenshot](https://github.com/makrisramasamy/azure-devops/blob/main/AzureAppservices.png)
+!![Screenshot](https://github.com/makrisramasamy/azure-devops/blob/main/Azure_prediction.png)
 
