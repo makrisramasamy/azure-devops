@@ -82,4 +82,5 @@ https://trello.com/b/Vsn8JGVH/ci-cd
 ![Screenshot](https://github.com/makrisramasamy/azure-devops/blob/main/AzurePipeline.png)
 ![Screenshot](https://github.com/makrisramasamy/azure-devops/blob/main/Architecture.pptx)
 ![Screenshot](https://github.com/makrisramasamy/azure-devops/blob/main/AzureApp.png)
+![Screenshot](https://github.com/makrisramasamy/azure-devops/blob/main/project-management-template%20(2).xlsx)
 
