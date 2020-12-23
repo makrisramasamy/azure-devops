@@ -30,7 +30,7 @@ requirements.txt : Required pakages to be installed by pip to run this project w
 
 To run this project locally :  Invoke make individual command ( eg install ) or all 
 
-Set up a workflow for continous integration using Github Actions
+Set up a workflow for continous integration using Github Actions.
 
 Access your Github Repo -Actions
 New workflow- python package
