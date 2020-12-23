@@ -72,7 +72,7 @@ By using Tagging information create a pipeline for each environment.
 
 ## Demo 
 
-<TODO: https://studio.youtube.com/video/aImGOs-AMQk >
+<TODO: https://youtu.be/shQ_YcjXN_s >
 
 https://trello.com/b/Vsn8JGVH/ci-cd
 
